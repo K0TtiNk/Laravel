@@ -1,0 +1,28 @@
+# Laravel
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+/.env
+/.env.backup
+/.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.env.testing
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+docker-data/  # (если у вас есть локальные данные контейнеров)
+
+# IDE / Редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы
+.DS_Store
+Thumbs.db
